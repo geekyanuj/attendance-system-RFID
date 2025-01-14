@@ -10,6 +10,7 @@ module com.geekyanuj.projectrfid {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires javafx.graphics;
+    requires java.base;
 
     opens com.geekyanuj.projectrfid to javafx.fxml;
     exports com.geekyanuj.projectrfid;
