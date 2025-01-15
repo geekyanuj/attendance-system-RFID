@@ -11,9 +11,11 @@ module com.geekyanuj.projectrfid {
     requires eu.hansolo.tilesfx;
     requires javafx.graphics;
     requires java.base;
+    requires java.sql;
 
     opens com.geekyanuj.projectrfid to javafx.fxml;
     exports com.geekyanuj.projectrfid;
     exports com.geekyanuj.projectrfid.controller;
+    exports com.geekyanuj.projectrfid.dba;
     opens com.geekyanuj.projectrfid.controller to javafx.fxml;
 }
